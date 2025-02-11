@@ -5,6 +5,7 @@ public class RedHeadDuck extends Duck {
      */
     public RedHeadDuck() {
         quackBehaviour = new quack();
+        swimBehaviour = new SwimwithLegs();
 
     }
 
