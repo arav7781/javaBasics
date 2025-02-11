@@ -9,6 +9,7 @@ public class Main {
       System.out.println("______________");
       rd.display();
       rd.performQuack();
+      rd.performSwim();
       System.out.println("______________");
       RubberDuck rub = new RubberDuck();
       System.out.println("______________");
