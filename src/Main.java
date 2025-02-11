@@ -15,6 +15,7 @@ public class Main {
       System.out.println("______________");
       rub.display();
       rub.performQuack();
+      rub.floatingAction();
       System.out.println("______________");
 
     }
