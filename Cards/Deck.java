@@ -13,7 +13,6 @@ public class Deck{
             for (int j = 0; j < suits.length; j++) {
                 Card new_card = new Card(ranks[i], suits[j]);
                 deck.add(new_card);
-
             }
         }
     }

@@ -10,11 +10,15 @@ public class player {
     public String toString(){
         return "Player: "+name+" Number: "+no_of_cards;
     }
-    public void DisplayCards1(player p){
-        for (int i = 0; i < p.no_of_cards; i++) {
+    public void DisplayCards1(int i2){
+        for (int i = 0; i < i2.no_of_cards; i++) {
             System.out.println("Card: "+i);
             
         }
+    }
+    public boolean DisplayCards1(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'DisplayCards1'");
     }
 
 }

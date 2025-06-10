@@ -20,9 +20,4 @@ class Calculator{
 		return sum;
 	}
 	
-	
-	
-
-
-
 }
