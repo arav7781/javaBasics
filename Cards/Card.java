@@ -1,3 +1,4 @@
+package Cards;
 import java.util.*;
 class Card{
     String rank;
