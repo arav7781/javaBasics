@@ -1,21 +1,18 @@
 
 
 public class Dev {
+    interface Computer{
+        void code();
+    }
     
 
-    static class Computer{
-        public void code(){
-        
-        }
-    }
-
-    static class Laptop extends Computer {
+    static class Laptop implements Computer {
         public void code(){
             System.out.println("Code Compile Run!!");
         }
     }
 
-    static class Desktop extends Computer{
+    static class Desktop implements Computer{
         public void code(){
             System.out.println("Code Compile Run:faster!!");
         }
