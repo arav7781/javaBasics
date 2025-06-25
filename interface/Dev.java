@@ -2,7 +2,7 @@
 
 public class Dev {
     interface Computer{
-        void code();
+        void code();//pre defines static and abstract method
     }
     
 
