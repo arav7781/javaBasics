@@ -9,7 +9,13 @@ public class runnableThread {
         }
     }
     public static void main(String[] args) {
-        Runnable obj1 = new A();
+        Runnable obj1 = new Runnable() {
+            public void run(){
+                for(int i = 0;i<5;i++){
+                    System.out.println("hello");
+                }
+            }
+        };
         Thread t1 = new Thread(obj1);
 
         t1.start();
