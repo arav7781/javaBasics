@@ -14,6 +14,7 @@ public class runnableThread {
                 System.out.println("hello");
             }
         };
+        
         Thread t1 = new Thread(obj1);
 
         t1.start();
