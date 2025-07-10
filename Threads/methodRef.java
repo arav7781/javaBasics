@@ -9,17 +9,17 @@ public class methodRef {
         List<String> names = Arrays.asList("arav", "vivek", "rohit");
 
     // Using lambda
-    List<String> uNames = names.stream()
-        .map(name -> name.toUpperCase())
-        .toList();
+        List<String> uNames = names.stream()
+            .map(name -> name.toUpperCase())
+            .toList();
 
-    // Alternatively, using method reference
-    // List<String> uNames = names.stream()
-    //                            .map(String::toUpperCase)
-    //                            .collect(Collectors.toList());
+        // Alternatively, using method reference
+        // List<String> uNames = names.stream()
+        //                            .map(String::toUpperCase)
+        //                            .collect(Collectors.toList());
 
-    
-    System.out.println(uNames);
+
+        System.out.println(uNames);
     }
                         
 
