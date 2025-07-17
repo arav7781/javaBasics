@@ -11,7 +11,7 @@ import java.util.*;
 public class constructorRef {
     static class Students {
         private  String name;
-        private int age ;
+        private int age;
         public Students(String name) {
             this.name = name;
             // this.age = age;
